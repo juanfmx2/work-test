@@ -14,4 +14,3 @@ VONameCorrection VC ON (VC.corrid=R.VOcorrid)
 JOIN
 VO on (VC.void = VO.void)
 LEFT JOIN ProjectNameCorrection PNC ON (PNC.ProjectNameCorrid=R.ProjectNameCorrid) 
-limit 1000
